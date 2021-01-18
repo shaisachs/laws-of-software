@@ -1,6 +1,5 @@
-# Forked from https://github.com/artemsheludko/flexible-jekyll
 title: Laws of Software
-site-img: laws-of-software.jpg # Photo by <a href="https://unsplash.com/@wesleyphotography">Wesley Tingey</a> on <a href="https://unsplash.com/s/photos/gavel">Unsplash</a>
+site-img: laws-of-software.jpg
 description: A catalog of the laws guiding software development. Especially useful for individual contributors, new managers, and product managers who want to build well-made software.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
