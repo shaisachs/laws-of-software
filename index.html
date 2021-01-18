@@ -1,0 +1,15 @@
+---
+layout: main
+---
+{% for post in site.laws %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+  </div>
+</article>
+{% endfor %}
