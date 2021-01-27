@@ -1213,7 +1213,7 @@ a.newer-posts:hover {
   line-height: 1.3;
 }
 
-.header-page .page-date {
+.header-page .page-date, .header-page .page-source {
   color: #a0a0a0;
   font-weight: 300;
   font-size: 12px;
