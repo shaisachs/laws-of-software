@@ -8,7 +8,7 @@ permalink: /about/
 
 This site is a catalog of the laws of software development. These "laws" are in fact informal rules-of-thumb with varying degrees of applicability to software development. Some of them really are just about software, like Moore's Law. Some of them are more general-purpose laws that happen to apply to software, like Parkinson's Law. Some of them were discovered in the context of software development, but turn out to be very useful in other endeavors. A great example of this last category is the Law of Leaky Abstractions.
 
-It's this last category which, in my view, is most interesting and is part of this site's entire *raison d'etre*. Not only do I hope for this site to serve as a useful guide to software developers, product managers, managers, and anyone else involved in making software: I also hope that some of these concepts prove more broadly useful outside our discipline.
+It's this last category which, in my view, is most interesting and is part of this site's entire *raison d'etre*. Not only do I hope for this site to serve as a useful guide to software developers, product managers, engineering managers, and anyone else involved in making software: I also hope that some of these concepts prove more broadly useful outside our discipline.
 
 ## The Author
 
