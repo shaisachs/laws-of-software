@@ -14,8 +14,11 @@ layout: default
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
+      <h3 class="contact-title">Contact</h3>
       <ul>
+        {% if site.social-home %}
+          <li><a href="{{ site.social-home }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+        {% endif %}
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
@@ -32,6 +35,8 @@ layout: default
     </section> <!-- End Section Contact -->
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
-<div class="content-box clearfix">
-  {{ content }}
+<div class="content-box">
+  <article>
+    {{ content }}
+  </article>
 </div>
