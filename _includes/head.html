@@ -12,6 +12,15 @@
   {% else %}
     <meta content="website" property="og:type">
   {% endif %}
+  {% if site.author %}
+    <meta name="author" content="{{ site.author }}">
+  {% endif %}
+  {% if site.social-home %}
+    <meta content="{{ site.social-home }}" property="article:author">
+    <meta property="profile:first_name" content="{{ site.author-firstname }}" >
+    <meta property="profile:last_name" content="{{ site.author-lastname }}" >
+    <meta property="profile:username" content="{{ site.social-facebook }}" >
+  {% endif %}
   {% if page.description %}
     <meta content="{{ page.description }}" property="og:description">
   {% else %}
@@ -22,7 +31,6 @@
   {% endif %}
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
   {% if page.img %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}" property="og:image">
