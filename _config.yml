@@ -2,9 +2,9 @@ title: Laws of Software
 site-img: laws-of-software.jpg
 description: A catalog of the laws guiding software development. Especially useful for individual contributors, new managers, and product managers who want to build well-made software.
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shaisachs.com/laws-of-software/" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: ""
+url: "https://www.laws-of-software.com/"
+site-twitter:
 
 # Author Settings
 author: Shai Sachs
