@@ -22,6 +22,10 @@ Feel free to contact me if you have any questions - or especially if you're inte
 
 If you see something here that's missing or incorrect, please speak up! Just [submit a pull request](https://github.com/shaisachs/laws-of-software/).
 
+## API
+
+Needless to say, this site has an [API](/api.json)!
+
 ## Credits
 
 [Template](https://github.com/artemsheludko/flexible-jekyll) by Artem Sheludko
