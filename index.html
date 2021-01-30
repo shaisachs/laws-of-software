@@ -14,7 +14,7 @@ layout: main
       <p>-- <a href="{{ post.law-url }}">{{ post.law-author }}, {{ post.law-year }}</a></p>
     </blockquote>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <p><a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">Permalink</a></p>
+    <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Permalink</a></p>
   </div>
 </article>
 {% endfor %}
