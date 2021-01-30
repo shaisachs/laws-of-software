@@ -9,6 +9,10 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <blockquote>
+      <p>{{ page.law }}</p>
+      <p>-- <a href="{{ page.law-url }}">{{ page.law-author }}, {{ page.law-year }}</a></p>
+    </blockquote>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
   </div>
 </article>
