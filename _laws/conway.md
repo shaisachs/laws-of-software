@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conway's Law
-law: Any organization that designs a system \(defined broadly\) will produce a design whose structure is a copy of the organization's communication structure.
+law: Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
 law-author: Melvin Conway
 law-url: https://www.melconway.com/Home/Conways_Law.html
 law-year: 1968

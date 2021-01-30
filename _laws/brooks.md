@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Brooks's Law
-law: Adding \[human resources\] to a late software project makes it later.
+law: Adding [human resources] to a late software project makes it later.
 law-author: Fred Brooks
 law-url: https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month
 law-year: 1975
