@@ -17,12 +17,11 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
-        {% if page.source %}
-          <div class="page-date">
-            <a href="{{ page.source }}">Source</a>
-          </div>
-        {% endif %}
       </header>
+      <blockquote>
+        <p>{{ page.law }}</p>
+        <p>-- <a href="{{ page.law-url }}">{{ page.law-author }}, {{ page.law-year }}</a></p>
+      </blockquote>
       {{content | markdownify}}
       <div class="page-footer">
         <div class="page-share">
