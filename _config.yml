@@ -30,3 +30,5 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 collections:
   laws:
     output: true
+  books:
+    output: false

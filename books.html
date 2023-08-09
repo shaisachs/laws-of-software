@@ -1,0 +1,11 @@
+---
+layout: main
+---
+{% for post in site.books %}
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.link}}" target=_blank>{{post.title}}</a></h2>
+    <p>by {{post.authors}}</p>
+  </div>
+</article>
+{% endfor %}
