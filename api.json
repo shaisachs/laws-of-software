@@ -5,7 +5,7 @@
         {% for post in site.laws %}
         {
             "title": "{{ post.title }}",
-            "law": "{{ post.law }}",
+            "law": "{{ post.law | escape }}",
             "url": "{{post.url | prepend: site.baseurl | prepend: site.url }}",
             "author": "{{ post.law-author }}",
             "year": {{ post.law-year }},
