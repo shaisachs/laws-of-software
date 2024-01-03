@@ -3,7 +3,8 @@ layout: post
 title: Gall's Law
 law: A complex system that works has evolved from a simple system that worked. A complex system built from scratch won’t work.
 law-author: John Gall
-law-url: https://www.goodreads.com/book/show/583785.The_Systems_Bible
+law-url: https://www.amazon.com/SYSTEMANTICS-SYSTEMS-BIBLE-John-Gall-ebook/dp/B00AK1BIDM?&_encoding=UTF8&tag=lawsofsoftwar-20&linkCode=ur2&linkId=55d61fcdfabf182924a164860124a790&camp=1789&creative=9325
+ https://www.goodreads.com/book/show/583785.The_Systems_Bible
 law-year: 1975
 ---
 
