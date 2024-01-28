@@ -3,7 +3,7 @@ layout: post
 title: Peter Principle
 law: People in a hierarchy tend to rise to "a level of respective incompetence."
 law-author: Laurence J. Peter
-law-url: https://www.indiebound.org/book/9780062092069
+law-url: https://www.amazon.com/Peter-Principle-Things-Always-Wrong-ebook/dp/B00IRCZHXI/?&_encoding=UTF8&tag=lawsofsoftwar-20&linkCode=ur2&linkId=5fdaa1952a35093fddd09bc1d693482a&camp=1789&creative=9325
 law-year: 1969
 ---
 

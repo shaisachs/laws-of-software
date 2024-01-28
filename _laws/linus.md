@@ -3,7 +3,7 @@ layout: post
 title: Linus's Law
 law: Given enough eyeballs, all bugs are shallow.
 law-author: Linus Trovalds
-law-url: http://www.catb.org/~esr/writings/cathedral-bazaar/
+law-url: https://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary/dp/0596001088?&_encoding=UTF8&tag=lawsofsoftwar-20&linkCode=ur2&linkId=f6fd5393e16732fd608e42e74fa05f4d&camp=1789&creative=9325
 law-year: 1999
 ---
 
