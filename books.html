@@ -1,0 +1,16 @@
+---
+layout: main
+---
+
+<p>For those interested in the art and science of software development, nothing beats reading some of the classic works in the field. These books are excellent complements to the laws of software development; they help fill out a robust  picture of software architecture from numerous angles.</p>
+
+<p>Not all of these books are strictly focused on the practice of software as such. That is because skilled software developers draw their talents from many disciplines, ranging from literature to the social sciences. A broad view of the world at large is the best way to approach this fascinating field.</p>
+
+{% for post in site.books %}
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.link}}" target=_blank>{{post.title}}</a></h2>
+    <p>by {{post.authors}}</p>
+  </div>
+</article>
+{% endfor %}

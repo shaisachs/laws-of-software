@@ -10,8 +10,16 @@
             "author": "{{ post.law-author }}",
             "year": {{ post.law-year }},
             "source": "{{ post.law-url }}"
-        }
-        {% if post.next %},{% endif %}
+        } {% if post.next %},{% endif %}
+        {% endfor %}
+    ],
+    "books": [
+        {% for book in site.books %}
+        {
+            "title": "{{ book.title }}",
+            "url": "{{ book.link }}",
+            "authors": "{{ book.authors }}"
+        } {% if book.next %},{% endif %}
         {% endfor %}
     ]
 }
