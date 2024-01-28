@@ -1,5 +1,5 @@
 ---
 title: Elements of Style
-link: https://bookshop.org/p/books/the-elements-of-style-william-strunk/9477728?ean=9780205309023
+link: https://www.amazon.com/Elements-Style-4th-William-Strunk/dp/B0BYRNBRZ3/
 authors: William Strunk, E. White
 ---

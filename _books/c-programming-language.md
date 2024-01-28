@@ -1,5 +1,5 @@
 ---
 title: The C Programming Language
-link: https://bookshop.org/p/books/c-programming-language-brian-kernighan/11402312?ean=9780131103627
+link: https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/
 authors: Dennis Ritchie, Brian Kernighan
 ---

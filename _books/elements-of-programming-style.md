@@ -1,5 +1,5 @@
 ---
 title: The Elements of Programming Style
-link: https://www.goodreads.com/book/show/454039.The_Elements_of_Programming_Style
+link: https://www.amazon.com/Elements-Programming-Style-2nd/dp/0070342075/
 authors: Brian W. Kernighan, P.J. Plauger
 ---
