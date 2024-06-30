@@ -6,6 +6,7 @@ Gemfile.lock
 package-lock.json
 node_modules/
 .jekyll-cache/
+.idea
 
 ### macOS ###
 *.DS_Store
