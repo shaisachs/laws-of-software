@@ -7,4 +7,4 @@ law-url: https://www.amazon.com/exec/obidos/ASIN/1594202532?&linkCode=ll1&tag=la
 law-year: 2010
 ---
 
-This law is really about business generally rather than software in particular. However, it has broad application to software since so much of software product design focuses on solving user problems. The law is a cautionary tale about the perverse incentives that can inadvertantly cuase organizations to prolong rather than solve problems. While the law was originally stated by Clay Shirky, it was coined the Shirky principle by [Kevin Kelly](https://kk.org/thetechnium/the-shirky-prin/).
+This law is really about business generally rather than software in particular. However, it has broad application to software since so much of software product design focuses on solving user problems. The law is a cautionary tale about the perverse incentives that can inadvertantly cause organizations to prolong rather than solve problems. While the law was originally stated by Clay Shirky, it was coined the Shirky principle by [Kevin Kelly](https://kk.org/thetechnium/the-shirky-prin/).
