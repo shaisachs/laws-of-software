@@ -14,7 +14,7 @@ It's this last category which, in my view, is most interesting and is part of th
 
 ## The Author
 
-My name is Shai Sachs, and I'm a Staff Engineer at Chewy. I've long been fascinated by the "rules-of-thumb" which govern various disciplines, ranging from literature to business to... well, the law. Naturally I'm particularly interested in the rules-of-thumb of software, so I pulled together this site to document the "laws" I discover in my travels.
+My name is Shai Sachs, and I'm a Staff Software Engineer at Chewy. I've long been fascinated by the "rules-of-thumb" which govern various disciplines, ranging from literature to business to... well, the law. Naturally I'm particularly interested in the rules-of-thumb of software, so I pulled together this site to document the "laws" I discover in my travels. The views expressed here are mine alone.
 
 Feel free to contact me if you have any questions - or especially if you're interested in joining us at Chewy. We're always looking for talented engineers!
 
