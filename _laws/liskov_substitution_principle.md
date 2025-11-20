@@ -1,6 +1,3 @@
-Here’s **Liskov Substitution Principle (LSP)** in the requested style:
-
-
 ---
 layout: post
 title: Liskov Substitution Principle (LSP)
