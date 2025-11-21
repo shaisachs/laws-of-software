@@ -14,7 +14,10 @@ layout: main
       <p>-- <a href="{{ post.law-url }}">{{ post.law-author }}, {{ post.law-year }}</a></p>
     </blockquote>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <p><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Permalink</a></p>
+
+    {% assign prefix = site.url %}
+    {% assign prefix_without_slash = prefix | replace: "/$", "" %}
+    <p><a href="{{ post.url | prepend: prefix_without_slash }}">Permalink</a></p>
   </div>
 </article>
 {% endfor %}
