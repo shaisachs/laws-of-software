@@ -16,8 +16,9 @@ layout: main
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
 
     {% assign prefix = site.url %}
-    {% assign prefix_without_slash = prefix | replace: "/$", "" %}
-    <p><a href="{{ post.url | prepend: prefix_without_slash }}">Permalink</a></p>
+    {% assign prefix_without_slash = prefix | remove_last: "/" %}
+    {% assign permalink = page.url | prepend: prefix_without_slash %}
+    <p><a href="{{ permalink }}">Permalink</a></p>
   </div>
 </article>
 {% endfor %}

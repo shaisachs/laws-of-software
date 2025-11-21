@@ -26,10 +26,11 @@ layout: main
       <div class="page-footer">
         <div class="page-share">
           {% assign prefix = site.url %}
-          {% assign prefix_without_slash = prefix | replace: "/$", "" %}          
-          <a href="{{ page.url | prepend: prefix_without_slash }}" rel="nofollow" target="_blank">Permalink</a>
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}" title="Share on LinkedIn" rel="nofollow" target="_blank">LinkedIn</a>
-          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          {% assign prefix_without_slash = prefix | remove_last: "/" %}
+          {% assign permalink = page.url | prepend: prefix_without_slash %}
+          <a href="{{ permalink }}" rel="nofollow" target="_blank">Permalink</a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ permalink }}" title="Share on LinkedIn" rel="nofollow" target="_blank">LinkedIn</a>
+          <a href="https://facebook.com/sharer.php?u={{ permalink }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
         </div>
       </div>
       {% include disqus.html %}
