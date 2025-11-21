@@ -1,0 +1,25 @@
+---
+layout: post
+title: Lehman's Laws of Software Evolution
+law: Software evolves continuously and tends toward increasing complexity unless actively managed
+law-author: Meir M. Lehman
+law-url: https://en.wikipedia.org/wiki/Lehman%27s_laws_of_software_evolution
+law-year: 1974–1996
+---
+
+# Lehman's Laws of Software Evolution
+
+**Description:**  
+Lehman's Laws describe how long-lived software systems evolve. The core insight: 
+Software must change continuously, and without disciplined maintenance, complexity naturally increases.
+
+Lehman's Laws wrap eight laws regarding 'embedded' programs (E-Type).
+
+**Implications in Software Engineering:**  
+- Necessitates ongoing refactoring and architectural stewardship.  
+- Predicts that stability and quality decline unless active measures counter entropy.  
+- Supports incremental and evolutionary development approaches.
+
+**Example:**  
+A monolithic enterprise system that grows over years becomes harder to modify
+unless teams routinely restructure modules and manage dependencies.
