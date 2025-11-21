@@ -15,9 +15,8 @@ layout: main
     </blockquote>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
 
-    {% assign prefix = site.url %}
-    {% assign prefix_without_slash = prefix | remove_last: "/" %}
-    {% assign permalink = page.url | prepend: prefix_without_slash %}
+    {% assign prefix = site.url | remove_last: "/" %}
+    {% assign permalink = post.url | prepend: prefix %}
     <p><a href="{{ permalink }}">Permalink</a></p>
   </div>
 </article>
