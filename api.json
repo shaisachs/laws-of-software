@@ -21,5 +21,16 @@
             "authors": "{{ book.authors }}"
         } {% if book.next %},{% endif %}
         {% endfor %}
+    ],
+    "essays": [
+        {% for essay in site.essays %}
+        {
+            "title": "{{ essay.title }}",
+            "url": "{{ essay.link }}",
+            "author": "{{ essay.author }}",
+            "year": {{ essay.year }},
+            "description": "{{ essay.content | strip_newlines | escape }}"
+        } {% if essay.next %},{% endif %}
+        {% endfor %}
     ]
 }
