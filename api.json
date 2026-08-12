@@ -29,7 +29,7 @@
             "url": "{{ essay.link }}",
             "author": "{{ essay.author }}",
             "year": {{ essay.year }},
-            "description": "{{ essay.description | escape }}"
+            "description": "{{ essay.content | strip_newlines | escape }}"
         } {% if essay.next %},{% endif %}
         {% endfor %}
     ]
