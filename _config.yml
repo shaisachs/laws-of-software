@@ -3,7 +3,7 @@ site-img: laws-of-software.jpg
 description: A catalog of the laws guiding software development. Especially useful for individual contributors, new managers, and product managers who want to build well-made software.
 permalink: ':title/'
 baseurl: ""
-url: "https://www.laws-of-software.com/"
+url: "https://www.laws-of-software.com"
 site-twitter:
 
 # Author Settings
