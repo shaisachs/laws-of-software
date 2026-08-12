@@ -1,0 +1,17 @@
+---
+layout: main
+---
+
+<p>For those who want to go deeper, some of the most influential ideas in software development have come not from books, but from essays. These essays are classic reads that have shaped the way developers think about the field; they are excellent complements to the laws of software development.</p>
+
+<p>Each essay below includes a short description indicating what it is about.</p>
+
+{% for post in site.essays %}
+<article class="post">
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.link}}" target=_blank>{{post.title}}</a></h2>
+    <p>by {{post.author}}, {{post.year}}</p>
+    <p>{{post.description}}</p>
+  </div>
+</article>
+{% endfor %}

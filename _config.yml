@@ -33,3 +33,5 @@ collections:
     output: true
   books:
     output: false
+  essays:
+    output: false
