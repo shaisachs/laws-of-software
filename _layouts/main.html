@@ -21,6 +21,7 @@ layout: default
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact</h3>
+      {% include contact.html %}
       <ul>
         {% if site.social-home %}
           <li><a href="{{ site.social-home }}" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
@@ -41,7 +42,6 @@ layout: default
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
-      {% include contact.html %}
     </section> <!-- End Section Contact -->
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
