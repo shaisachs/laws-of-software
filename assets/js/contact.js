@@ -4,14 +4,22 @@ const ENTRY_NAME = "entry.819492699";
 const ENTRY_EMAIL = "entry.83157207";
 const ENTRY_MESSAGE = "entry.1108340479";
 
+const toggle = document.getElementById("contactFormToggle");
+const panel = document.getElementById("contactFormPanel");
 const form = document.getElementById("contactForm");
 const button = form.querySelector("button");
 const status = document.getElementById("contactFormStatus");
+
+toggle.addEventListener("click", function(e) {
+    e.preventDefault();
+    panel.classList.toggle("open");
+});
 
 form.addEventListener("submit", async function(e) {
     e.preventDefault();
 
     status.textContent = "";
+    status.className = "form-status";
     button.disabled = true;
 
     var submitCaption = button.textContent;
@@ -29,10 +37,12 @@ form.addEventListener("submit", async function(e) {
             body: formData
         });
 
+        status.className = "form-status success";
         status.textContent = "Thank you! Your message was received.";
         form.reset();
 
     } catch (err) {
+        status.className = "form-status error";
         status.textContent = "Sorry, your message could not be sent.";
     } finally {
         button.disabled = false;
