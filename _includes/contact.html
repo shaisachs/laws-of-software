@@ -1,13 +1,18 @@
-<div id="contactFormStatus" class="form-status"></div>
-<form id="contactForm" class="contact-form">
-  <div class="form-group">
-    <input type="text" id="name" placeholder="Your Name" required />
+<div class="contact-form-container">
+  <a href="#" id="contactFormToggle" class="contact-form-toggle">Contact form</a>
+  <div id="contactFormPanel" class="contact-form-panel">
+    <div id="contactFormStatus" class="form-status"></div>
+    <form id="contactForm" class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email Address" required />
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
   </div>
-  <div class="form-group">
-    <input type="email" id="email" placeholder="Your Email Address" required />
-  </div>
-  <div class="form-group">
-    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
-  </div>
-  <button type="submit">Send</button>
-</form>
+</div>

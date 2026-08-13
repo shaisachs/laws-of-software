@@ -14,7 +14,6 @@ layout: default
         <a href="{{ site.baseurl}}/essays">Essays</a>
       </p>
       <p><a href="{{site.baseurl}}/about">About</a> - 
-        <a href="{{site.baseurl}}/contact">Contact</a> - 
         <a href="https://github.com/shaisachs/laws-of-software">Contribute</a>
       </p>
     </div>
@@ -42,6 +41,7 @@ layout: default
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
+      {% include contact.html %}
     </section> <!-- End Section Contact -->
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
@@ -50,3 +50,4 @@ layout: default
     {{ content }}
   </article>
 </div>
+<script src="{{site.baseurl}}/assets/js/contact.js"></script>
