@@ -1,7 +1,7 @@
 ---
 title: No Silver Bullet
 author: Fred Brooks
-link: http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
+link: https://www.cs.unc.edu/techreports/86-020.pdf
 year: 1986
 ---
 
