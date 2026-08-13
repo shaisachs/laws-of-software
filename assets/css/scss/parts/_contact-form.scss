@@ -20,6 +20,10 @@
     &.open {
       display: block;
     }
+    
+    &.hidden {
+      display: none;
+    }
   }
 }
 

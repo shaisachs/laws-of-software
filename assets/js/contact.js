@@ -13,6 +13,7 @@ const status = document.getElementById("contactFormStatus");
 toggle.addEventListener("click", function(e) {
     e.preventDefault();
     panel.classList.toggle("open");
+    panel.classList.toggle("hidden");
 });
 
 form.addEventListener("submit", async function(e) {
