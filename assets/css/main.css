@@ -1309,6 +1309,95 @@ a.newer-posts:hover {
   text-decoration: underline;
 }
 
+/* - - - - - - - - - - Contact Form Styles - - - - - - - - - - */
+.contact-form-toggle {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #263959;
+  text-decoration: none;
+}
+
+.contact-form-toggle:hover {
+  text-decoration: underline;
+}
+
+.contact-form-wrapper {
+  display: none;
+  margin-top: 15px;
+}
+
+.contact-form-wrapper.contact-form-visible {
+  display: block;
+}
+
+.contact-form .form-group {
+  margin-bottom: 24px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ecf0f1;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #515151;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #263959;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form .form-status {
+  margin-bottom: 24px;
+  padding: 10px;
+  font-weight: 700;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.contact-form .form-status.success {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+
+.contact-form .form-status.error {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #263959;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
+
+.contact-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;

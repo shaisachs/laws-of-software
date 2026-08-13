@@ -41,9 +41,14 @@ layout: default
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
+      <a href="#" id="contactFormToggle" class="contact-form-toggle">Contact form</a>
+      <div id="contactFormWrapper" class="contact-form-wrapper">
+        {% include contact.html %}
+      </div>
     </section> <!-- End Section Contact -->
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
+<script src="{{site.baseurl}}/assets/js/contact.js"></script>
 <div class="content-box">
   <article>
     {{ content }}
