@@ -1335,6 +1335,10 @@ a.newer-posts:hover {
   display: block;
 }
 
+.contact-form-container .contact-form-panel.hidden {
+  display: none;
+}
+
 .contact-form {
   max-width: 600px;
 }
